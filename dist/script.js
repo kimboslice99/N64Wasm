@@ -66,7 +66,7 @@ class MyClass {
             forceAngry: false,
             ricePlugin: false,
             useVBO: false,
-            darkMode: false,
+            darkMode: window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches,
             remapPlayer1: true,
             remapOptions: false,
             remapGameshark: false,
